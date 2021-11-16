@@ -2,24 +2,10 @@
   padding-top: 16px;
   padding-bottom: 16px;
   border-bottom: 1px solid #ececec;
+  position: relative;
 }
-.mobile-contacts {
-  display: flex;
-
-  @media screen and (min-width: 768px) {
-    display: none;
-  }
-}
-.mobile-contacts__item {
-  padding-right: 10px;
-  &:not(:last-child) {
-    border-right: 1px solid rgba(33, 33, 33, 0.2);
-    margin-right: 10px;
-  }
-}
-.mobile-contacts__link {
-  color: var(--accent-color);
-  text-decoration: none;
+.tablet-menu {
+  display: none;
 }
 // .container-header {
 //   display: flex;
