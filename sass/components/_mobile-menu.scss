@@ -1,16 +1,44 @@
 .mobile-menu {
   position: absolute;
   background-color: var(--primary-white-color);
-  background-color: yellow;
-  text-align: center;
   padding-left: 40px;
   padding-right: 40px;
   padding-top: 48px;
   padding-bottom: 48px;
+  width: 480px;
+  left: 0px;
+  top: 0px;
+
+  @media screen and (min-width: 480px) {
+    width: 480px;
+  }
 
   @media screen and (min-width: 768px) {
     display: none;
   }
+}
+.mobile-button {
+  background-color: var(--primary-white-color);
+  border: none;
+  padding: 0;
+  width: 40px;
+  height: 40px;
+
+  &:hover,
+  &:focus {
+    fill: var(--accent-color);
+  }
+}
+.mobile-button--close {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+.mobile-button--close .is-open .mobile-menu {
+  display: none;
+}
+.mobile-button--open .is-open .mobile-menu {
+  display: block;
 }
 
 .mobile-nav {
@@ -64,11 +92,6 @@
 }
 .mobile-contacts {
   display: flex;
-  justify-content: center;
-
-  @media screen and (min-width: 768px) {
-    display: none;
-  }
 }
 .mobile-contacts__item {
   padding-right: 10px;
