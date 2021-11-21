@@ -8,9 +8,12 @@
   @media screen and (max-width: 767px) {
     &:not(:last-child) {
       margin-bottom: 30px;
+      &:nth-child(even) {
+        margin-left: 0px;
+      }
     }
   }
-  @media screen and (min-width: 768px) and (max-width: 1199px) {
+  @media screen and (max-width: 1199px) {
     max-width: 354px;
     margin-bottom: 40px;
     &:first-child {
@@ -25,9 +28,7 @@
     &:not(:last-child) {
       margin-right: 30px;
       max-width: 270px;
-      &:nth-child(even) {
-        margin-left: 0px;
-      }
+      
     }
   }
 }
