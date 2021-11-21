@@ -1139,6 +1139,12 @@ img {
   }
 }
 
+@media screen and (min-width: 1200px) {
+  .portfolio__image {
+    width: 370px;
+  }
+}
+
 .portfolio__addition {
   position: absolute;
   font-family: Roboto, sans-serif;
@@ -1182,6 +1188,12 @@ img {
 @media screen and (min-width: 768px) {
   .portfolio__description {
     width: 354px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .portfolio__description {
+    width: 370px;
   }
 }
 
