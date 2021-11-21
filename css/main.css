@@ -1333,7 +1333,7 @@ img {
 }
 
 .singer__item {
-  width: 450px;
+  max-width: 450px;
   background-color: #2f303a;
   border: 1px solid rgba(255, 255, 255, 0.3);
   border-radius: 4px;
