@@ -1,20 +1,20 @@
 .paje-header {
   border-bottom: 1px solid #ececec;
   position: relative;
-  display: flex;
 }
 .container-header {
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 15px;
+  padding-bottom: 15px;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  
+  
   @media screen and (min-width: 480px) {
     width: 480px;
   }
   @media screen and (min-width: 768px) {
     width: 768px;
-    display: flex;
     padding-top: 20px;
     padding-bottom: 20px;
   }
