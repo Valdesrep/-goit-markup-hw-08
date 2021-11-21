@@ -489,7 +489,7 @@ img {
   }
 }
 
-@media screen and (max-width: 1199px) {
+@media screen and (min-width: 767px) and (max-width: 1199px) {
   .features__item {
     max-width: 354px;
     margin-bottom: 40px;
@@ -560,7 +560,6 @@ img {
   .features {
     display: flex;
     flex-wrap: wrap;
-    margin-right: -30px;
   }
 }
 
