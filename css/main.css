@@ -560,6 +560,7 @@ img {
   .features {
     display: flex;
     flex-wrap: wrap;
+    margin-right: -30px;
   }
 }
 
