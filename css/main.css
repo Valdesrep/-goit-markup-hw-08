@@ -148,12 +148,6 @@ img {
   padding: 40px;
 }
 
-@media screen and (min-width: 480px) {
-  .hero-modal {
-    min-width: 450px;
-  }
-}
-
 @media screen and (min-width: 1200px) {
   .hero-modal {
     max-width: 528px;
