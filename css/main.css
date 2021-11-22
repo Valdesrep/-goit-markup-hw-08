@@ -976,7 +976,7 @@ img {
 }
 
 .clients__item {
-  width: 210px;
+  max-width: 210px;
   height: 92px;
 }
 
