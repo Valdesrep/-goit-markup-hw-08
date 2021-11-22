@@ -190,8 +190,6 @@ img {
 
 .modal__box {
   position: relative;
-  max-width: 450px;
-  width: 100%;
 }
 
 .modal-form__item {
