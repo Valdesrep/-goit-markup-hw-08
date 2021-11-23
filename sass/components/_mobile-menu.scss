@@ -62,7 +62,6 @@
   letter-spacing: 0.02em;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
-
   &:hover,
   &:focus {
     color: var(--accent-color);
@@ -80,8 +79,6 @@
 }
 .mobile-conect__link {
   text-decoration: none;
-
-  
 }
 .mobile-conect__link--blue {
   font-weight: 500;
@@ -89,6 +86,10 @@
   line-height: 1.17;
   letter-spacing: 0.02em;
   color: var(--accent-color);
+  @media screen and (max-width: 377px) {
+    font-size: 24px;
+    line-height: 1.16;
+  }
 }
 .mobile-conect__link--gray {
   font-weight: 500;

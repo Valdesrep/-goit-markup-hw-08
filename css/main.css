@@ -427,6 +427,13 @@ img {
   color: var(--accent-color);
 }
 
+@media screen and (max-width: 377px) {
+  .mobile-conect__link--blue {
+    font-size: 24px;
+    line-height: 1.16;
+  }
+}
+
 .mobile-conect__link--gray {
   font-weight: 500;
   font-size: 24px;
